@@ -1,0 +1,6 @@
+email=input("Enter your Email: ").strip()
+username= email[:email.index("@")]
+domain_name=email[email.index("@")+1:]
+t=domain_name.upper()
+format_=(f"your user name is'{username}' and your domain is '{t}'")
+print(format_)
